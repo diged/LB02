@@ -5,7 +5,12 @@ body {
 }
 
 .navbar {
-    opacity: 0.7;
+    color: #000000;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
 }
 
 .myButton {
@@ -30,9 +35,6 @@ body {
 }
 
 #home-section .light-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     min-height: 556px;
     background-color: rgba(255,255,255,0.5);
@@ -75,9 +77,16 @@ h1 {
 .carousel-item {
     height: 32rem;
 }
+.carousel-inner {
+    border: 10px;
+    border-color: #ffffff;
+    border-style: solid;
+    border-radius: 8px;
+}
+
 
 /*REZEPTE*/
-#rezepte {
+#reviews {
     background-color: hotpink;
     text-align: center;
     padding-top: 50px;
@@ -89,6 +98,17 @@ h1 {
     color: #ffffff;
 }
 
+.review-text {
+    align-self: center;
+}
+
+video {
+    align-content: center;
+}
+
 footer {
+    margin-top: 30px;
     padding-top: 20px;
+    width: 100%;
+    background-color: #ffffff;
 }
